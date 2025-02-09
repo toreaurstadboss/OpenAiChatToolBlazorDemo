@@ -2,6 +2,12 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div class="form-group">
+    <textarea name="questionTextArea" id="questionTextArea" @bind="Question" placeholder="Enter query here">
+    </textarea>
+</div>
+<div>
+    <button class="btn btn-primary" @onclick="OnEnterQuestion">
+        Ask Travel Agency Sales Bot
+    </button>
+</div>

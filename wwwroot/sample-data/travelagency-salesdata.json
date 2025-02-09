@@ -1,0 +1,604 @@
+[
+  {
+    "id": 1,
+    "customerNames": [ "Lars Olsen", "Emma Olsen" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Grand Hotel Oslo",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 4800,
+      "flight": 2200,
+      "hotel": 2600
+    },
+    "travelDate": "2025-05-12",
+    "returnDate": "2025-05-19"
+  },
+  {
+    "id": 2,
+    "customerNames": [ "Anna Svensson" ],
+    "destination": "Copenhagen, Denmark",
+    "hotel": "Hotel d'Angleterre",
+    "flight": "SAS - Scandinavian Airlines",
+    "cost": {
+      "total": 2100,
+      "flight": 900,
+      "hotel": 1200
+    },
+    "travelDate": "2025-07-19",
+    "returnDate": "2025-07-26"
+  },
+  {
+    "id": 3,
+    "customerNames": [ "Lucas Hansen", "Sofia Hansen" ],
+    "destination": "Stockholm, Sweden",
+    "hotel": "Hotel Diplomat",
+    "flight": "Finnair",
+    "cost": {
+      "total": 4700,
+      "flight": 2200,
+      "hotel": 2500
+    },
+    "travelDate": "2025-03-28",
+    "returnDate": "2025-04-04"
+  },
+  {
+    "id": 4,
+    "customerNames": [ "Michael Brown" ],
+    "destination": "Bergen, Norway",
+    "hotel": "Hotel Norge by Scandic",
+    "flight": "Wideroe",
+    "cost": {
+      "total": 1900,
+      "flight": 800,
+      "hotel": 1100
+    },
+    "travelDate": "2025-09-05",
+    "returnDate": "2025-09-12"
+  },
+  {
+    "id": 5,
+    "customerNames": [ "Nina Larsen", "Oliver Larsen" ],
+    "destination": "Helsinki, Finland",
+    "hotel": "Hotel K�mp",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5000,
+      "flight": 2500,
+      "hotel": 2500
+    },
+    "travelDate": "2025-06-14",
+    "returnDate": "2025-06-21"
+  },
+  {
+    "id": 6,
+    "customerNames": [ "James Taylor", "Emily Taylor", "Lucas Taylor" ],
+    "destination": "Amsterdam, Netherlands",
+    "hotel": "Hotel Okura Amsterdam",
+    "flight": "KLM Royal Dutch Airlines",
+    "cost": {
+      "total": 8000,
+      "flight": 4000,
+      "hotel": 4000
+    },
+    "travelDate": "2025-08-23",
+    "returnDate": "2025-08-30"
+  },
+  {
+    "id": 7,
+    "customerNames": [ "Olivia Martinez" ],
+    "destination": "Brussels, Belgium",
+    "hotel": "Hotel Amigo",
+    "flight": "Brussels Airlines",
+    "cost": {
+      "total": 2600,
+      "flight": 1300,
+      "hotel": 1300
+    },
+    "travelDate": "2025-10-12",
+    "returnDate": "2025-10-19"
+  },
+  {
+    "id": 8,
+    "customerNames": [ "Liam Anderson", "Sophia Anderson" ],
+    "destination": "Zurich, Switzerland",
+    "hotel": "Baur au Lac",
+    "flight": "Swiss International Air Lines",
+    "cost": {
+      "total": 5800,
+      "flight": 2900,
+      "hotel": 2900
+    },
+    "travelDate": "2025-11-03",
+    "returnDate": "2025-11-10"
+  },
+  {
+    "id": 9,
+    "customerNames": [ "Eva Jensen", "Mikael Jensen" ],
+    "destination": "Reykjavik, Iceland",
+    "hotel": "Hotel Borg by Keahotels",
+    "flight": "Icelandair",
+    "cost": {
+      "total": 5500,
+      "flight": 2700,
+      "hotel": 2800
+    },
+    "travelDate": "2025-12-21",
+    "returnDate": "2025-12-28"
+  },
+  {
+    "id": 10,
+    "customerNames": [ "William Garcia" ],
+    "destination": "Berlin, Germany",
+    "hotel": "Hotel Adlon Kempinski",
+    "flight": "Lufthansa",
+    "cost": {
+      "total": 2600,
+      "flight": 1200,
+      "hotel": 1400
+    },
+    "travelDate": "2025-04-17",
+    "returnDate": "2025-04-24"
+  },
+  {
+    "id": 11,
+    "customerNames": [ "Ava White", "Noah White" ],
+    "destination": "Vienna, Austria",
+    "hotel": "Hotel Sacher Wien",
+    "flight": "Austrian Airlines",
+    "cost": {
+      "total": 5300,
+      "flight": 2600,
+      "hotel": 2700
+    },
+    "travelDate": "2025-06-05",
+    "returnDate": "2025-06-12"
+  },
+  {
+    "id": 12,
+    "customerNames": [ "Mia Harris", "Ethan Harris", "Lucas Harris" ],
+    "destination": "Paris, France",
+    "hotel": "Le Bristol Paris",
+    "flight": "Air France",
+    "cost": {
+      "total": 9200,
+      "flight": 4600,
+      "hotel": 4600
+    },
+    "travelDate": "2025-09-20",
+    "returnDate": "2025-09-27"
+  },
+  {
+    "id": 13,
+    "customerNames": [ "Isabella Martin" ],
+    "destination": "Geneva, Switzerland",
+    "hotel": "Hotel President Wilson",
+    "flight": "Swiss International Air Lines",
+    "cost": {
+      "total": 3500,
+      "flight": 1700,
+      "hotel": 1800
+    },
+    "travelDate": "2025-11-15",
+    "returnDate": "2025-11-22"
+  },
+  {
+    "id": 14,
+    "customerNames": [ "Daniel Lee" ],
+    "destination": "Hamburg, Germany",
+    "hotel": "Fairmont Hotel Vier Jahreszeiten",
+    "flight": "Lufthansa",
+    "cost": {
+      "total": 3000,
+      "flight": 1500,
+      "hotel": 1500
+    },
+    "travelDate": "2025-04-10",
+    "returnDate": "2025-04-17"
+  },
+  {
+    "id": 15,
+    "customerNames": [ "Chloe Scott", "James Scott", "Sophia Scott" ],
+    "destination": "Prague, Czech Republic",
+    "hotel": "Four Seasons Hotel Prague",
+    "flight": "Czech Airlines",
+    "cost": {
+      "total": 6300,
+      "flight": 3200,
+      "hotel": 3100
+    },
+    "travelDate": "2025-12-05",
+    "returnDate": "2025-12-12"
+  },
+  {
+    "id": 16,
+    "customerNames": [ "Magnus Berg", "Ingrid Berg" ],
+    "destination": "Vienna, Austria",
+    "hotel": "Hotel Sacher Wien",
+    "flight": "Austrian Airlines",
+    "cost": {
+      "total": 5500,
+      "flight": 2800,
+      "hotel": 2700
+    },
+    "travelDate": "2025-03-22",
+    "returnDate": "2025-03-29"
+  },
+  {
+    "id": 17,
+    "customerNames": [ "Madison Lewis" ],
+    "destination": "Cologne, Germany",
+    "hotel": "Excelsior Hotel Ernst",
+    "flight": "Eurowings",
+    "cost": {
+      "total": 2900,
+      "flight": 1500,
+      "hotel": 1400
+    },
+    "travelDate": "2025-08-10",
+    "returnDate": "2025-08-17"
+  },
+  {
+    "id": 18,
+    "customerNames": [ "Evelyn Hall", "Samuel Hall" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Grand Hotel Oslo",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5100,
+      "flight": 2400,
+      "hotel": 2700
+    },
+    "travelDate": "2025-10-15",
+    "returnDate": "2025-10-22"
+  },
+
+  {
+    "id": 19,
+    "customerNames": [ "Oliver Hansen", "Emma Hansen" ],
+    "destination": "Bergen, Norway",
+    "hotel": "Hotel Norge",
+    "flight": "Scandinavian Airlines",
+    "cost": {
+      "total": 5800,
+      "flight": 2900,
+      "hotel": 2900
+    },
+    "travelDate": "2024-03-15",
+    "returnDate": "2024-03-22"
+  },
+  {
+    "id": 20,
+    "customerNames": [ "Liam Brown", "Sophia Brown" ],
+    "destination": "Stockholm, Sweden",
+    "hotel": "Scandic Grand Central",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 6200,
+      "flight": 3000,
+      "hotel": 3200
+    },
+    "travelDate": "2024-05-10",
+    "returnDate": "2024-05-17"
+  },
+  {
+    "id": 21,
+    "customerNames": [ "William Johansson", "Elin Johansson" ],
+    "destination": "Copenhagen, Denmark",
+    "hotel": "Copenhagen Admiral Hotel",
+    "flight": "SAS",
+    "cost": {
+      "total": 7000,
+      "flight": 3500,
+      "hotel": 3500
+    },
+    "travelDate": "2024-06-20",
+    "returnDate": "2024-06-27"
+  },
+  {
+    "id": 22,
+    "customerNames": [ "James Clark", "Mia Clark" ],
+    "destination": "Helsinki, Finland",
+    "hotel": "Hotel K�mp",
+    "flight": "Finnair",
+    "cost": {
+      "total": 5400,
+      "flight": 2600,
+      "hotel": 2800
+    },
+    "travelDate": "2024-08-05",
+    "returnDate": "2024-08-12"
+  },
+  {
+    "id": 23,
+    "customerNames": [ "Lucas Eriksen", "Freja Eriksen" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Grand Hotel Oslo",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5900,
+      "flight": 2800,
+      "hotel": 3100
+    },
+    "travelDate": "2024-09-15",
+    "returnDate": "2024-09-22"
+  },
+  {
+    "id": 24,
+    "customerNames": [ "Noah Nielsen", "Ida Nielsen" ],
+    "destination": "Reykjavik, Iceland",
+    "hotel": "Hotel Borg",
+    "flight": "Icelandair",
+    "cost": {
+      "total": 6500,
+      "flight": 3200,
+      "hotel": 3300
+    },
+    "travelDate": "2024-10-05",
+    "returnDate": "2024-10-12"
+  },
+  {
+    "id": 25,
+    "customerNames": [ "Alexander Olsen", "Sofia Olsen" ],
+    "destination": "Gothenburg, Sweden",
+    "hotel": "Radisson Blu Scandinavia Hotel",
+    "flight": "SAS",
+    "cost": {
+      "total": 4800,
+      "flight": 2300,
+      "hotel": 2500
+    },
+    "travelDate": "2024-11-15",
+    "returnDate": "2024-11-22"
+  },
+  {
+    "id": 26,
+    "customerNames": [ "Benjamin White", "Ella White" ],
+    "destination": "Aarhus, Denmark",
+    "hotel": "Comwell Aarhus",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5500,
+      "flight": 2600,
+      "hotel": 2900
+    },
+    "travelDate": "2024-12-01",
+    "returnDate": "2024-12-08"
+  },
+  {
+    "id": 27,
+    "customerNames": [ "Emil Berg", "Maja Berg" ],
+    "destination": "Trondheim, Norway",
+    "hotel": "Scandic Nidelven",
+    "flight": "Scandinavian Airlines",
+    "cost": {
+      "total": 6000,
+      "flight": 2900,
+      "hotel": 3100
+    },
+    "travelDate": "2024-01-10",
+    "returnDate": "2024-01-17"
+  },
+  {
+    "id": 28,
+    "customerNames": [ "Lucas Edwards", "Emily Edwards" ],
+    "destination": "Troms�, Norway",
+    "hotel": "Radisson Blu Hotel",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 6300,
+      "flight": 3100,
+      "hotel": 3200
+    },
+    "travelDate": "2024-02-25",
+    "returnDate": "2024-03-04"
+  },
+  {
+    "id": 29,
+    "customerNames": [ "Isak Jensen", "Nora Jensen" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Thon Hotel Opera",
+    "flight": "Scandinavian Airlines",
+    "cost": {
+      "total": 5700,
+      "flight": 2800,
+      "hotel": 2900
+    },
+    "travelDate": "2024-04-20",
+    "returnDate": "2024-04-27"
+  },
+  {
+    "id": 30,
+    "customerNames": [ "Henry Hall", "Amelia Hall" ],
+    "destination": "Bergen, Norway",
+    "hotel": "Clarion Hotel Admiral",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5000,
+      "flight": 2400,
+      "hotel": 2600
+    },
+    "travelDate": "2024-05-25",
+    "returnDate": "2024-06-01"
+  },
+  {
+    "id": 31,
+    "customerNames": [ "Alfred Larsen", "Clara Larsen" ],
+    "destination": "Stockholm, Sweden",
+    "hotel": "Hotel Diplomat",
+    "flight": "SAS",
+    "cost": {
+      "total": 6600,
+      "flight": 3300,
+      "hotel": 3300
+    },
+    "travelDate": "2024-07-15",
+    "returnDate": "2024-07-22"
+  },
+  {
+    "id": 32,
+    "customerNames": [ "Leo Lee", "Lilly Lee" ],
+    "destination": "Copenhagen, Denmark",
+    "hotel": "Radisson Collection Royal Hotel",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5800,
+      "flight": 2800,
+      "hotel": 3000
+    },
+    "travelDate": "2024-08-20",
+    "returnDate": "2024-08-27"
+  },
+  {
+    "id": 33,
+    "customerNames": [ "Liam Christensen", "Anna Christensen" ],
+    "destination": "Helsinki, Finland",
+    "hotel": "Hotel Haven",
+    "flight": "Finnair",
+    "cost": {
+      "total": 6400,
+      "flight": 3000,
+      "hotel": 3400
+    },
+    "travelDate": "2024-09-05",
+    "returnDate": "2024-09-12"
+  },
+  {
+    "id": 34,
+    "customerNames": [ "Sebastian Morris", "Ava Morris" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Radisson Blu Plaza Hotel",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5500,
+      "flight": 2700,
+      "hotel": 2800
+    },
+    "travelDate": "2024-10-10",
+    "returnDate": "2024-10-17"
+  },
+  {
+    "id": 35,
+    "customerNames": [ "William Kristensen", "Ella Kristensen" ],
+    "destination": "Bergen, Norway",
+    "hotel": "Hotel Oleana",
+    "flight": "Scandinavian Airlines",
+    "cost": {
+      "total": 6200,
+      "flight": 3000,
+      "hotel": 3200
+    },
+    "travelDate": "2024-11-10",
+    "returnDate": "2024-11-17"
+  },
+  {
+    "id": 36,
+    "customerNames": [ "Oscar Adams", "Emily Adams" ],
+    "destination": "Trondheim, Norway",
+    "hotel": "Radisson Blu Royal Garden",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5700,
+      "flight": 2800,
+      "hotel": 2900
+    },
+    "travelDate": "2024-12-10",
+    "returnDate": "2024-12-17"
+  },
+  {
+    "id": 38,
+    "customerNames": [ "Sander Karlsen", "Emilie Karlsen" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Hotel Continental",
+    "flight": "Scandinavian Airlines",
+    "cost": {
+      "total": 5500,
+      "flight": 2700,
+      "hotel": 2800
+    },
+    "travelDate": "2024-01-05",
+    "returnDate": "2024-01-12"
+  },
+  {
+    "id": 39,
+    "customerNames": [ "Jack Thompson", "Ava Thompson" ],
+    "destination": "Bergen, Norway",
+    "hotel": "Clarion Hotel Admiral",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 6200,
+      "flight": 3000,
+      "hotel": 3200
+    },
+    "travelDate": "2024-02-10",
+    "returnDate": "2024-02-17"
+  },
+  {
+    "id": 40,
+    "customerNames": [ "Tobias Andersen", "Sofia Andersen" ],
+    "destination": "Copenhagen, Denmark",
+    "hotel": "Hotel Skt. Petri",
+    "flight": "SAS",
+    "cost": {
+      "total": 6300,
+      "flight": 3100,
+      "hotel": 3200
+    },
+    "travelDate": "2024-03-20",
+    "returnDate": "2024-03-27"
+  },
+  {
+    "id": 41,
+    "customerNames": [ "James Walker", "Isabella Walker" ],
+    "destination": "Stockholm, Sweden",
+    "hotel": "Nobis Hotel",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5900,
+      "flight": 2900,
+      "hotel": 3000
+    },
+    "travelDate": "2024-04-05",
+    "returnDate": "2024-04-12"
+  },
+  {
+    "id": 42,
+    "customerNames": [ "Victor Hansen", "Emma Hansen" ],
+    "destination": "Helsinki, Finland",
+    "hotel": "Hotel K�mp",
+    "flight": "Finnair",
+    "cost": {
+      "total": 6100,
+      "flight": 3000,
+      "hotel": 3100
+    },
+    "travelDate": "2024-05-15",
+    "returnDate": "2024-05-22"
+  },
+  {
+    "id": 43,
+    "customerNames": [ "William Evans", "Sophia Evans" ],
+    "destination": "Oslo, Norway",
+    "hotel": "Thon Hotel Opera",
+    "flight": "Norwegian Air",
+    "cost": {
+      "total": 5700,
+      "flight": 2800,
+      "hotel": 2900
+    },
+    "travelDate": "2024-06-10",
+    "returnDate": "2024-06-17"
+  },
+  {
+    "id": 44,
+    "customerNames": [ "Olivia Nielsen", "Maja Nielsen" ],
+    "destination": "Reykjavik, Iceland",
+    "hotel": "Hotel Borg",
+    "flight": "Icelandair",
+    "cost": {
+      "total": 6500,
+      "flight": 3200,
+      "hotel": 3300
+    }
+  }
+
+]

@@ -4,15 +4,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>cf14fe01-0985-4a76-9bb4-e71a8001aca7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.1" PrivateAssets="all" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\sample-data\" />
+    <PackageReference Include="OpenAI" Version="2.1.0" />
   </ItemGroup>
 
 </Project>
