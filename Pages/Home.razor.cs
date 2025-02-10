@@ -23,14 +23,14 @@ namespace OpenAiChatToolBlazorDemo.Pages
         public required OpenAIClient OpenAIClient { get; set; }
 
         [Inject]
-        public required IOptions<ModelSettings> ModelSettings { get; set; }
+        public required ModelSettings ModelSettings { get; set; }
 
         [Inject]
         public required HttpClient HttpClient { get; set; }
 
         protected override void OnInitialized()
         {
-            _chatClient = OpenAIClient.GetChatClient(ModelSettings.Value.ChatLanguageModelName);
+            _chatClient = OpenAIClient.GetChatClient(ModelSettings.ChatLanguageModelName);
         }
 
         private async Task OnEnterQuestion()
@@ -47,7 +47,6 @@ namespace OpenAiChatToolBlazorDemo.Pages
             {
                 Tools = { getSalesInformationForGivenYearTool }
             };
-
 
             while (requiresAction)
             {
